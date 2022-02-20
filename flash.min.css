@@ -17,7 +17,7 @@
     opacity: 0;
     z-index: 9999;
 }
-.flash-container .action {
+.flash-container .button {
     background: transparent;
     display: inline-block;
     border: none;
