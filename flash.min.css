@@ -17,7 +17,7 @@
     opacity: 0;
     z-index: 9999;
 }
-.flash-container .button {
+.flash-container .action {
     background: transparent;
     display: inline-block;
     border: none;
@@ -45,41 +45,41 @@
         width: 100%;
     }
 }
-.flash-position.bottom-center {
+.flash-pos.bottom-center {
     top: auto !important;
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 0);
 }
-.flash-position.bottom-left {
+.flash-pos.bottom-left {
     top: auto !important;
     bottom: 0;
     left: 0;
 }
-.flash-position.bottom-right {
+.flash-pos.bottom-right {
     top: auto !important;
     bottom: 0;
     right: 0;
 }
-.flash-position.top-left {
+.flash-pos.top-left {
     bottom: auto !important;
     top: 0;
     left: 0;
 }
-.flash-position.top-center {
+.flash-pos.top-center {
     bottom: auto !important;
     top: 0;
     left: 50%;
     transform: translate(-50%, 0);
 }
-.flash-position.top-right {
+.flash-pos.top-right {
     bottom: auto !important;
     top: 0;
     right: 0;
 }
 @media (max-width: 640px) {
-    .flash-position.bottom-center,
-    .flash-position.top-center {
+    .flash-pos.bottom-center,
+    .flash-pos.top-center {
         left: 0;
         transform: none;
     }
