@@ -17,7 +17,7 @@
     opacity: 0;
     z-index: 9999;
 }
-.flash-container .close {
+.flash-container .button {
     background: transparent;
     display: inline-block;
     border: none;
@@ -83,4 +83,6 @@
         left: 0;
         transform: none;
     }
+
+
 }
