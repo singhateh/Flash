@@ -17,7 +17,7 @@
     opacity: 0;
     z-index: 9999;
 }
-.flash-container .button {
+.flash-container .close {
     background: transparent;
     display: inline-block;
     border: none;
@@ -45,6 +45,17 @@
         width: 100%;
     }
 }
+.flash-position.top-full-width {
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+  .flash-position.bottom.full-width {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+
 .flash-position.bottom-center {
     top: auto !important;
     bottom: 0;
@@ -83,6 +94,4 @@
         left: 0;
         transform: none;
     }
-
-
 }
